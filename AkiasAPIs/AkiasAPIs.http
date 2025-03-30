@@ -1,0 +1,6 @@
+@AkiasAPIs_HostAddress = http://localhost:5232
+
+GET {{AkiasAPIs_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
