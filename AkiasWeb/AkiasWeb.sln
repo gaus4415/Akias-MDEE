@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkiasWeb", "AkiasWeb\AkiasWeb.csproj", "{AE999753-8DC4-4593-8443-384F803E3B2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AkiasWeb", "AkiasWeb\AkiasWeb.csproj", "{AE999753-8DC4-4593-8443-384F803E3B2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkiasAPIs", "..\AkiasAPIs\AkiasAPIs.csproj", "{CE830FCB-1E1E-411B-88A7-A0829168D5CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AkiasAPIs", "..\AkiasAPIs\AkiasAPIs.csproj", "{CE830FCB-1E1E-411B-88A7-A0829168D5CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkiasDAL", "..\AkiasDAL\AkiasDAL.csproj", "{B31F2ADA-4F3A-40E6-BAB7-78EE87DE6244}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AkiasDAL", "..\AkiasDAL\AkiasDAL.csproj", "{B31F2ADA-4F3A-40E6-BAB7-78EE87DE6244}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkiasBAL", "..\AkiasBAL\AkiasBAL.csproj", "{4A7024DA-C7A3-41BC-8A13-1547276DE79C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AkiasBAL", "..\AkiasBAL\AkiasBAL.csproj", "{4A7024DA-C7A3-41BC-8A13-1547276DE79C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AkiasModel", "..\AkiasModel\AkiasModel.csproj", "{8D0DA2F7-704E-49D7-B075-01D3AFD70FEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AkiasModel", "..\AkiasModel\AkiasModel.csproj", "{8D0DA2F7-704E-49D7-B075-01D3AFD70FEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AkiasDAL\AkiasDAL.csproj" />
+    <ProjectReference Include="..\AkiasModel\AkiasModel.csproj" />
+  </ItemGroup>
+
 </Project>

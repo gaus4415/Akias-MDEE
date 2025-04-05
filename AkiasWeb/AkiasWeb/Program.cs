@@ -1,7 +1,19 @@
+using AkiasBAL.Implementation;
+using AkiasBAL.Interface;
+using AkiasDAL.AppDbContext;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Add DbContext
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
+builder.Services.AddScoped<IAccountServices, AccountServices>();
 
 var app = builder.Build();
 
